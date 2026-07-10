@@ -1,0 +1,42 @@
+{
+  "identifier" : "A670A39C-2E40-477A-B33F-B1F06AFA639E",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "1A39F947-5849-43BB-8F34-9B5B2BC72D2C",
+      "localizations" : [
+        {
+          "description" : "Unlock advanced syncopation and compound-meter practice packs.",
+          "displayName" : "Full Practice Library",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.wangrenzhu.pulseloom.fullpractice",
+      "referenceName" : "Full Practice Library",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6752110214",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 804860400,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

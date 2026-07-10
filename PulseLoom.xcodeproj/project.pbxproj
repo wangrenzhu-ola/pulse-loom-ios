@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* Assets.xcassets */; };
+		A00000000000000000000002 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* PrivacyInfo.xcprivacy */; };
+		A00000000000000000000003 /* PulseLoomCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* PulseLoomCore.swift */; };
+		A00000000000000000000004 /* PulseLoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* PulseLoomApp.swift */; };
+		A00000000000000000000005 /* PracticeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000009 /* PracticeStore.swift */; };
+		A00000000000000000000006 /* PurchaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000A /* PurchaseStore.swift */; };
+		A00000000000000000000007 /* PulseLoomRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000B /* PulseLoomRootView.swift */; };
+		A00000000000000000000008 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000C /* Components.swift */; };
+		A00000000000000000000009 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000D /* HomeView.swift */; };
+		A0000000000000000000000A /* PatternLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000E /* PatternLibraryView.swift */; };
+		A0000000000000000000000B /* PatternEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000F /* PatternEditorView.swift */; };
+		A0000000000000000000000C /* PracticeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000010 /* PracticeViews.swift */; };
+		A0000000000000000000000D /* SettingsAndHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000011 /* SettingsAndHistoryView.swift */; };
+		A0000000000000000000000E /* PulseLoomAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000012 /* PulseLoomAppTests.swift */; };
+		A0000000000000000000000F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000013 /* Localizable.strings */; };
+		A00000000000000000000010 /* PulseLoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000015 /* PulseLoomUITests.swift */; };
+		A00000000000000000000011 /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* Configuration.storekit */; };
+		A00000000000000000000012 /* Configuration.storekit in Test Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* Configuration.storekit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C00000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00000000000000000000001;
+			remoteInfo = PulseLoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00000000000000000000002 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B00000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00000000000000000000004 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		B00000000000000000000005 /* PulseLoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseLoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000006 /* PulseLoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseLoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000007 /* PulseLoomCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLoomCore.swift; sourceTree = "<group>"; };
+		B00000000000000000000008 /* PulseLoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLoomApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000009 /* PracticeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeStore.swift; sourceTree = "<group>"; };
+		B0000000000000000000000A /* PurchaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseStore.swift; sourceTree = "<group>"; };
+		B0000000000000000000000B /* PulseLoomRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLoomRootView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000C /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		B0000000000000000000000D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000E /* PatternLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternLibraryView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000F /* PatternEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternEditorView.swift; sourceTree = "<group>"; };
+		B00000000000000000000010 /* PracticeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViews.swift; sourceTree = "<group>"; };
+		B00000000000000000000011 /* SettingsAndHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAndHistoryView.swift; sourceTree = "<group>"; };
+		B00000000000000000000012 /* PulseLoomAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLoomAppTests.swift; sourceTree = "<group>"; };
+		B00000000000000000000013 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B00000000000000000000014 /* PulseLoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseLoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000015 /* PulseLoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLoomUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F00000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000002 /* PulseLoom */,
+				100000000000000000000003 /* PulseLoomCore */,
+				100000000000000000000004 /* PulseLoomTests */,
+				100000000000000000000006 /* PulseLoomUITests */,
+				100000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000002 /* PulseLoom */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000008 /* PulseLoomApp.swift */,
+				B00000000000000000000009 /* PracticeStore.swift */,
+				B0000000000000000000000A /* PurchaseStore.swift */,
+				B0000000000000000000000B /* PulseLoomRootView.swift */,
+				B0000000000000000000000C /* Components.swift */,
+				B0000000000000000000000D /* HomeView.swift */,
+				B0000000000000000000000E /* PatternLibraryView.swift */,
+				B0000000000000000000000F /* PatternEditorView.swift */,
+				B00000000000000000000010 /* PracticeViews.swift */,
+				B00000000000000000000011 /* SettingsAndHistoryView.swift */,
+				B00000000000000000000013 /* Localizable.strings */,
+				B00000000000000000000003 /* Info.plist */,
+				B00000000000000000000002 /* PrivacyInfo.xcprivacy */,
+				B00000000000000000000001 /* Assets.xcassets */,
+				B00000000000000000000004 /* Configuration.storekit */,
+			);
+			path = PulseLoom;
+			sourceTree = "<group>";
+		};
+		100000000000000000000003 /* PulseLoomCore */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000007 /* PulseLoomCore.swift */,
+			);
+			path = Sources/PulseLoomCore;
+			sourceTree = "<group>";
+		};
+		100000000000000000000004 /* PulseLoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000012 /* PulseLoomAppTests.swift */,
+			);
+			path = PulseLoomTests;
+			sourceTree = "<group>";
+		};
+		100000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000005 /* PulseLoom.app */,
+				B00000000000000000000006 /* PulseLoomTests.xctest */,
+				B00000000000000000000014 /* PulseLoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100000000000000000000006 /* PulseLoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000015 /* PulseLoomUITests.swift */,
+			);
+			path = PulseLoomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000001 /* PulseLoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200000000000000000000001 /* Build configuration list for PBXNativeTarget "PulseLoom" */;
+			buildPhases = (
+				300000000000000000000001 /* Sources */,
+				F00000000000000000000001 /* Frameworks */,
+				400000000000000000000001 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = PulseLoom;
+			productName = PulseLoom;
+			productReference = B00000000000000000000005 /* PulseLoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E00000000000000000000002 /* PulseLoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200000000000000000000002 /* Build configuration list for PBXNativeTarget "PulseLoomTests" */;
+			buildPhases = (
+				300000000000000000000002 /* Sources */,
+				F00000000000000000000002 /* Frameworks */,
+				400000000000000000000002 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (
+				500000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = PulseLoomTests;
+			productName = PulseLoomTests;
+			productReference = B00000000000000000000006 /* PulseLoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E00000000000000000000003 /* PulseLoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200000000000000000000004 /* Build configuration list for PBXNativeTarget "PulseLoomUITests" */;
+			buildPhases = (
+				300000000000000000000003 /* Sources */,
+				F00000000000000000000003 /* Frameworks */,
+				400000000000000000000003 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (
+				500000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = PulseLoomUITests;
+			productName = PulseLoomUITests;
+			productReference = B00000000000000000000014 /* PulseLoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					E00000000000000000000001 = { CreatedOnToolsVersion = 26.6; };
+					E00000000000000000000002 = { CreatedOnToolsVersion = 26.6; TestTargetID = E00000000000000000000001; };
+					E00000000000000000000003 = { CreatedOnToolsVersion = 26.6; TestTargetID = E00000000000000000000001; };
+				};
+			};
+			buildConfigurationList = 200000000000000000000003 /* Build configuration list for PBXProject "PulseLoom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 100000000000000000000001;
+			productRefGroup = 100000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00000000000000000000001 /* PulseLoom */,
+				E00000000000000000000002 /* PulseLoomTests */,
+				E00000000000000000000003 /* PulseLoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		400000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000001 /* Assets.xcassets in Resources */,
+				A00000000000000000000002 /* PrivacyInfo.xcprivacy in Resources */,
+				A0000000000000000000000F /* Localizable.strings in Resources */,
+				A00000000000000000000011 /* Configuration.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000012 /* Configuration.storekit in Test Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		300000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000003 /* PulseLoomCore.swift in Sources */,
+				A00000000000000000000004 /* PulseLoomApp.swift in Sources */,
+				A00000000000000000000005 /* PracticeStore.swift in Sources */,
+				A00000000000000000000006 /* PurchaseStore.swift in Sources */,
+				A00000000000000000000007 /* PulseLoomRootView.swift in Sources */,
+				A00000000000000000000008 /* Components.swift in Sources */,
+				A00000000000000000000009 /* HomeView.swift in Sources */,
+				A0000000000000000000000A /* PatternLibraryView.swift in Sources */,
+				A0000000000000000000000B /* PatternEditorView.swift in Sources */,
+				A0000000000000000000000C /* PracticeViews.swift in Sources */,
+				A0000000000000000000000D /* SettingsAndHistoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000000000000000000000E /* PulseLoomAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000010 /* PulseLoomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		500000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00000000000000000000001 /* PulseLoom */;
+			targetProxy = C00000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		500000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00000000000000000000001 /* PulseLoom */;
+			targetProxy = C00000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		600000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_ASSET_PATHS = ""; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = PulseLoom/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 14.0; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks"); MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = com.wangrenzhu.pulseloom; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+		600000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = PulseLoom/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 14.0; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks"); MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = com.wangrenzhu.pulseloom; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; VALIDATE_PRODUCT = YES; }; name = Release; };
+		600000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 14.0; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks"); PRODUCT_BUNDLE_IDENTIFIER = com.wangrenzhu.pulseloom.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseLoom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseLoom"; }; name = Debug; };
+		600000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 14.0; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks"); PRODUCT_BUNDLE_IDENTIFIER = com.wangrenzhu.pulseloom.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseLoom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseLoom"; }; name = Release; };
+		600000000000000000000005 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_DYNAMIC_NO_PIC = NO; GCC_NO_COMMON_BLOCKS = YES; GCC_OPTIMIZATION_LEVEL = 0; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)"); IPHONEOS_DEPLOYMENT_TARGET = 14.0; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		600000000000000000000006 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; IPHONEOS_DEPLOYMENT_TARGET = 14.0; MTL_ENABLE_DEBUG_INFO = NO; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; VALIDATE_PRODUCT = YES; }; name = Release; };
+		600000000000000000000007 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 14.0; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks"); PRODUCT_BUNDLE_IDENTIFIER = com.wangrenzhu.pulseloom.uitests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_TARGET_NAME = PulseLoom; }; name = Debug; };
+		600000000000000000000008 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 14.0; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks"); PRODUCT_BUNDLE_IDENTIFIER = com.wangrenzhu.pulseloom.uitests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_TARGET_NAME = PulseLoom; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		200000000000000000000001 /* Build configuration list for PBXNativeTarget "PulseLoom" */ = {isa = XCConfigurationList; buildConfigurations = (600000000000000000000001 /* Debug */, 600000000000000000000002 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		200000000000000000000002 /* Build configuration list for PBXNativeTarget "PulseLoomTests" */ = {isa = XCConfigurationList; buildConfigurations = (600000000000000000000003 /* Debug */, 600000000000000000000004 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		200000000000000000000003 /* Build configuration list for PBXProject "PulseLoom" */ = {isa = XCConfigurationList; buildConfigurations = (600000000000000000000005 /* Debug */, 600000000000000000000006 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		200000000000000000000004 /* Build configuration list for PBXNativeTarget "PulseLoomUITests" */ = {isa = XCConfigurationList; buildConfigurations = (600000000000000000000007 /* Debug */, 600000000000000000000008 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = D00000000000000000000001 /* Project object */;
+}

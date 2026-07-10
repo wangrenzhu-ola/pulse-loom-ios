@@ -1,0 +1,16 @@
+{
+  "schema_version": "appfactory.ios_package_manifest.v1",
+  "product_name": "Pulse Loom",
+  "bundle_id": "com.wangrenzhu.pulseloom",
+  "version": "1.0.0",
+  "swift_language_version": "5.0",
+  "minimum_ios_version": "14.0",
+  "xcodeproj_ref": "PulseLoom.xcodeproj",
+  "storekit_product_ids": [
+    "com.wangrenzhu.pulseloom.fullpractice"
+  ],
+  "locale": "en-US",
+  "permissions": [],
+  "privacy_manifest_ref": "PulseLoom/PrivacyInfo.xcprivacy"
+}
+

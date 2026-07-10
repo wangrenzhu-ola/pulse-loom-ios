@@ -1,0 +1,2 @@
+Pulse Loom stores rhythm patterns, touch-timing results, practice plans, and purchase entitlement state on the device. The app does not use a microphone, record audio, require an account, upload practice history, track users, or provide an AI or online coach.
+

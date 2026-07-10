@@ -88,9 +88,13 @@
     {"check_id":"DQA-REDUCE-MOTION","status":"pass","evidence_refs":["PulseLoom/PracticeViews.swift"]},
     {"check_id":"DQA-FREE-CORE-UNBLOCKED","status":"pass","evidence_refs":["evidence/Runtime/xcodebuild-all-tests.log"]}
   ],
-  "known_gaps": [
-    "iap_acceptance_missing",
-    "iap_credentials_missing_app_store_connect_product_ids"
+  "known_gaps": [],
+  "deferred_acceptance_checks": [
+    {
+      "requirement_id": "REQ-PREMIUM-001",
+      "status": "pending_final_checklist",
+      "evidence_refs": ["evidence/Runtime/storekit-purchase-restore.log"]
+    }
   ],
-  "completion_decision": "blocked"
+  "completion_decision": "rough_built_pending_acceptance_checklist"
 }

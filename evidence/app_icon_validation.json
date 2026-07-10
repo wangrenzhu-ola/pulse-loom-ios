@@ -10,5 +10,5 @@
   "outer_rounded_corners": false,
   "sha256": "dc7d69b9579b53f319db83d1999dbf1ad5597480ec242103e090426d4802c2f6",
   "asset_catalog_build_status": "pass",
-  "build_log_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Build/xcodebuild-device.log"
+  "build_log_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/evidence/Build/xcodebuild-device.log"
 }

@@ -1,0 +1,96 @@
+{
+  "schema_version": "appfactory.coding_verification_ledger.v1",
+  "run_id": "goal-001-3db8511d86",
+  "app_name": "Pulse Loom",
+  "repo_path": "/Users/wangrenzhu/work/PulseLoom",
+  "repo_url": "https://github.com/wangrenzhu-ola/pulse-loom-ios",
+  "xcodeproj_ref": "/Users/wangrenzhu/work/PulseLoom/PulseLoom.xcodeproj",
+  "implementation_mode": "agent_native_build_loop",
+  "generator_template_substitution_allowed": false,
+  "pm_inputs_read": [
+    "/Users/wangrenzhu/.local/state/app-factory-command-center/factory_production_queue/canonical-e2e-20260710/pm-docs-batch-q-20260710103321-9a75428a/PMAgent/product_goal_bundles/goal-001/goal_manifest.json",
+    "/Users/wangrenzhu/.local/state/app-factory-command-center/factory_production_queue/canonical-e2e-20260710/pm-docs-batch-q-20260710103321-9a75428a/PMAgent/product_goal_bundles/goal-001/package_goal_map.md",
+    "/Users/wangrenzhu/.local/state/app-factory-command-center/factory_production_queue/canonical-e2e-20260710/pm-docs-batch-q-20260710103321-9a75428a/PMAgent/product_goal_bundles/goal-001/design_blueprint.md",
+    "/Users/wangrenzhu/.local/state/app-factory-command-center/factory_production_queue/canonical-e2e-20260710/pm-docs-batch-q-20260710103321-9a75428a/PMAgent/product_goal_bundles/goal-001/acceptance_matrix.json",
+    "/Users/wangrenzhu/.local/state/app-factory-command-center/factory_production_queue/canonical-e2e-20260710/pm-docs-batch-q-20260710103321-9a75428a/PMAgent/product_goal_bundles/goal-001/design_qa_gates.md"
+  ],
+  "source_commits": [
+    "47910a54a990c51e5105efcda57cb09aed910ca6",
+    "bdce2e6703ab20ae67f05471908e697f061770aa",
+    "736ababdd898dd64cbf147bcb75e2c6c47bf4f10",
+    "1e643e9a130e79af05bfda21e48016e3f7769421",
+    "04f9c83a3a9110b306d13beb67c2df49b9dcf50f"
+  ],
+  "build_checks": [
+    {
+      "command": "xcodebuild -project PulseLoom.xcodeproj -scheme PulseLoom -configuration Debug -sdk iphoneos -destination generic/platform=iOS -derivedDataPath DerivedData CODE_SIGNING_ALLOWED=NO build",
+      "exit_code": 0,
+      "status": "pass",
+      "evidence_ref": "evidence/Build/xcodebuild-device.log"
+    },
+    {
+      "command": "xcodebuild build -project PulseLoom.xcodeproj -scheme PulseLoom -destination id=BBB7317F-76C6-4BD5-BF4B-EF6ABAEBA1F8 -derivedDataPath DerivedDataSim",
+      "exit_code": 0,
+      "status": "pass",
+      "evidence_ref": "evidence/Build/xcodebuild-simulator.log"
+    },
+    {
+      "command": "swift test",
+      "exit_code": 0,
+      "status": "pass",
+      "evidence_ref": "evidence/Build/swift-test.log"
+    }
+  ],
+  "runtime_checks": [
+    {
+      "command": "xcodebuild test -project PulseLoom.xcodeproj -scheme PulseLoom -destination id=BBB7317F-76C6-4BD5-BF4B-EF6ABAEBA1F8 -derivedDataPath DerivedDataSim",
+      "exit_code": 0,
+      "status": "pass",
+      "unit_tests_executed": 6,
+      "ui_tests_executed": 4,
+      "evidence_ref": "evidence/Runtime/xcodebuild-all-tests.log"
+    },
+    {
+      "command": "xcrun simctl install && xcrun simctl launch com.wangrenzhu.pulseloom",
+      "exit_code": 0,
+      "status": "pass",
+      "fatal_or_crash_log_matches": 0,
+      "evidence_ref": "evidence/Runtime/simctl-install-launch.log"
+    },
+    {
+      "command": "StoreKitTest purchase and restore acceptance",
+      "exit_code": 65,
+      "status": "blocked",
+      "evidence_ref": "evidence/Runtime/storekit-purchase-restore.log",
+      "blockers": [
+        "iap_acceptance_missing",
+        "iap_credentials_missing_app_store_connect_product_ids"
+      ]
+    }
+  ],
+  "requirement_results": [
+    {"requirement_id":"REQ-CRUD-001","status":"pass","evidence_refs":["evidence/Runtime/xcodebuild-all-tests.log"]},
+    {"requirement_id":"REQ-PERSIST-001","status":"pass","evidence_refs":["evidence/Runtime/xcodebuild-all-tests.log"]},
+    {"requirement_id":"REQ-VIS-001","status":"pass","evidence_refs":["evidence/Runtime/pulse-loom-home.png"]},
+    {"requirement_id":"REQ-EMPTY-001","status":"pass","evidence_refs":["evidence/Runtime/xcodebuild-all-tests.log"]},
+    {"requirement_id":"REQ-ERROR-001","status":"pass","evidence_refs":["PulseLoomTests/PulseLoomAppTests.swift"]},
+    {"requirement_id":"REQ-PRIVACY-001","status":"pass","evidence_refs":["evidence/Build/release-contract-check.log"]},
+    {"requirement_id":"REQ-PREMIUM-001","status":"blocked","evidence_refs":["evidence/Runtime/storekit-purchase-restore.log"],"blockers":["iap_acceptance_missing","iap_credentials_missing_app_store_connect_product_ids"]},
+    {"requirement_id":"REQ-LOCALE-001","status":"pass","evidence_refs":["evidence/Build/release-contract-check.log"]},
+    {"requirement_id":"REQ-A11Y-001","status":"pass","evidence_refs":["evidence/Runtime/pulse-loom-accessibility-xxxl.png"]}
+  ],
+  "design_results": [
+    {"check_id":"DQA-SCREEN-INVENTORY","status":"pass","evidence_refs":["evidence/Build/release-contract-check.log"]},
+    {"check_id":"DQA-ROUTE-GRAPH","status":"pass","evidence_refs":["PulseLoom/PulseLoomRootView.swift"]},
+    {"check_id":"DQA-QUICK-WEAVE-ONE-TAP","status":"pass","evidence_refs":["evidence/Runtime/xcodebuild-all-tests.log"]},
+    {"check_id":"DQA-BEAT-CELL-ADAPTIVE-LAYOUT","status":"pass","evidence_refs":["evidence/Runtime/pulse-loom-accessibility-xxxl.png"]},
+    {"check_id":"DQA-TIMING-NON-COLOR-ENCODING","status":"pass","evidence_refs":["PulseLoom/Components.swift"]},
+    {"check_id":"DQA-REDUCE-MOTION","status":"pass","evidence_refs":["PulseLoom/PracticeViews.swift"]},
+    {"check_id":"DQA-FREE-CORE-UNBLOCKED","status":"pass","evidence_refs":["evidence/Runtime/xcodebuild-all-tests.log"]}
+  ],
+  "known_gaps": [
+    "iap_acceptance_missing",
+    "iap_credentials_missing_app_store_connect_product_ids"
+  ],
+  "completion_decision": "blocked"
+}

@@ -14,8 +14,8 @@
   "install_status": "pass",
   "launch_status": "pass",
   "screenshot_refs": [
-    "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/evidence/Runtime/pulse-loom-home.png",
-    "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/evidence/Runtime/pulse-loom-accessibility-xxxl.png"
+    "/Users/wangrenzhu/work/PulseLoom/evidence/Runtime/pulse-loom-home.png",
+    "/Users/wangrenzhu/work/PulseLoom/evidence/Runtime/pulse-loom-accessibility-xxxl.png"
   ],
   "runtime_profile": {
     "runtime": "codex_app_server",
@@ -32,8 +32,8 @@
     "xcodebuild": "/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild",
     "swift_language_version": "5.0",
     "minimum_ios_version": "14.0",
-    "device_build_log_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/evidence/Build/xcodebuild-device.log",
-    "simulator_build_log_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/evidence/Build/xcodebuild-simulator.log"
+    "device_build_log_ref": "/Users/wangrenzhu/work/PulseLoom/evidence/Build/xcodebuild-device.log",
+    "simulator_build_log_ref": "/Users/wangrenzhu/work/PulseLoom/evidence/Build/xcodebuild-simulator.log"
   },
   "tests": {
     "command": "/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test -project PulseLoom.xcodeproj -scheme PulseLoom -destination id=BBB7317F-76C6-4BD5-BF4B-EF6ABAEBA1F8 -derivedDataPath DerivedDataSim",
@@ -41,7 +41,7 @@
     "unit_tests_executed": 6,
     "ui_tests_executed": 4,
     "failures": 0,
-    "log_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/evidence/Runtime/xcodebuild-all-tests.log"
+    "log_ref": "/Users/wangrenzhu/work/PulseLoom/evidence/Runtime/xcodebuild-all-tests.log"
   },
   "simulator": {
     "name": "iPhone 17",
@@ -52,32 +52,32 @@
   "install": {
     "command": "xcrun simctl install BBB7317F-76C6-4BD5-BF4B-EF6ABAEBA1F8 DerivedDataSim/Build/Products/Debug-iphonesimulator/PulseLoom.app",
     "exit_code": 0,
-    "app_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/DerivedDataSim/Build/Products/Debug-iphonesimulator/PulseLoom.app"
+    "app_ref": "/Users/wangrenzhu/work/PulseLoom/DerivedDataSim/Build/Products/Debug-iphonesimulator/PulseLoom.app"
   },
   "launch": {
     "command": "xcrun simctl launch --terminate-running-process BBB7317F-76C6-4BD5-BF4B-EF6ABAEBA1F8 com.wangrenzhu.pulseloom -UITestResetState",
     "exit_code": 0,
     "bundle_id": "com.wangrenzhu.pulseloom",
-    "pid": 91524,
+    "pid": 36853,
     "fatal_or_crash_log_matches": 0,
-    "log_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/evidence/Runtime/simctl-install-launch.log"
+    "log_ref": "/Users/wangrenzhu/work/PulseLoom/evidence/Runtime/simctl-install-launch.log"
   },
   "runtime_readback_refs": [
-    "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/evidence/Runtime/pulse-loom-home.png",
-    "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/evidence/Runtime/pulse-loom-accessibility-xxxl.png",
-    "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/evidence/Runtime/simctl-install-launch.log"
+    "/Users/wangrenzhu/work/PulseLoom/evidence/Runtime/pulse-loom-home.png",
+    "/Users/wangrenzhu/work/PulseLoom/evidence/Runtime/pulse-loom-accessibility-xxxl.png",
+    "/Users/wangrenzhu/work/PulseLoom/evidence/Runtime/simctl-install-launch.log"
   ],
   "storekit": {
     "acceptance_status": "unverified",
     "product_id": "com.wangrenzhu.pulseloom.fullpractice",
-    "configuration_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/PulseLoom/Configuration.storekit",
+    "configuration_ref": "/Users/wangrenzhu/work/PulseLoom/PulseLoom/Configuration.storekit",
     "source_and_unavailable_ui_tests": "pass",
     "verified_purchase_and_restore_runtime": "blocked",
     "blockers": [
       "iap_acceptance_missing",
       "iap_credentials_missing_app_store_connect_product_ids"
     ],
-    "evidence_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/evidence/Runtime/storekit-runtime-blocker.log"
+    "evidence_ref": "/Users/wangrenzhu/work/PulseLoom/evidence/Runtime/storekit-runtime-blocker.log"
   },
   "applied_skill_ids": [
     "factory-rough-app-builder",

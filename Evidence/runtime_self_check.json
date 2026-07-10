@@ -11,6 +11,12 @@
     "build": "17F113"
   },
   "xcodebuild": "/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild",
+  "install_status": "pass",
+  "launch_status": "pass",
+  "screenshot_refs": [
+    "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Runtime/pulse-loom-home.png",
+    "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Runtime/pulse-loom-accessibility-xxxl.png"
+  ],
   "runtime_profile": {
     "runtime": "codex_app_server",
     "requested_model": "gpt-5.6-sol",

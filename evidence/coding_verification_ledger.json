@@ -60,7 +60,7 @@
     {
       "command": "StoreKitTest purchase and restore acceptance",
       "exit_code": 65,
-      "status": "blocked",
+      "status": "unverified",
       "evidence_ref": "evidence/Runtime/storekit-purchase-restore.log",
       "blockers": [
         "iap_acceptance_missing",
@@ -75,7 +75,7 @@
     {"requirement_id":"REQ-EMPTY-001","status":"pass","evidence_refs":["evidence/Runtime/xcodebuild-all-tests.log"]},
     {"requirement_id":"REQ-ERROR-001","status":"pass","evidence_refs":["PulseLoomTests/PulseLoomAppTests.swift"]},
     {"requirement_id":"REQ-PRIVACY-001","status":"pass","evidence_refs":["evidence/Build/release-contract-check.log"]},
-    {"requirement_id":"REQ-PREMIUM-001","status":"blocked","evidence_refs":["evidence/Runtime/storekit-purchase-restore.log"],"blockers":["iap_acceptance_missing","iap_credentials_missing_app_store_connect_product_ids"]},
+    {"requirement_id":"REQ-PREMIUM-001","status":"unverified","evidence_refs":["evidence/Runtime/storekit-purchase-restore.log"],"blockers":["iap_acceptance_missing","iap_credentials_missing_app_store_connect_product_ids"]},
     {"requirement_id":"REQ-LOCALE-001","status":"pass","evidence_refs":["evidence/Build/release-contract-check.log"]},
     {"requirement_id":"REQ-A11Y-001","status":"pass","evidence_refs":["evidence/Runtime/pulse-loom-accessibility-xxxl.png"]}
   ],

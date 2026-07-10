@@ -1,0 +1,5 @@
+PASS Swift 5 / iOS 14 project settings
+PASS seven required SwiftUI surfaces
+PASS local-only privacy boundary and no microphone usage description
+PASS en-US source, localization, paywall, privacy, and App Store metadata scan
+PASS StoreKit non-consumable product configuration

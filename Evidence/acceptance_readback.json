@@ -53,13 +53,13 @@
     }
   ],
   "design_results": [
-    {"design_check_id": "DQA-QUICK-WEAVE-ONE-TAP", "status": "pass", "evidence_refs": ["PulseLoom/HomeView.swift", "Evidence/Runtime/xcodebuild-all-tests.log"]},
-    {"design_check_id": "DQA-BEAT-CELL-ADAPTIVE-LAYOUT", "status": "pass", "evidence_refs": ["PulseLoom/Components.swift", "Evidence/Runtime/pulse-loom-accessibility-xxxl.png"]},
-    {"design_check_id": "DQA-TIMING-NON-COLOR-ENCODING", "status": "pass", "evidence_refs": ["PulseLoom/Components.swift", "PulseLoomCoreTests/PulseLoomCoreTests.swift"]},
-    {"design_check_id": "DQA-PRACTICE-A11Y", "status": "pass", "evidence_refs": ["PulseLoom/PracticeViews.swift", "Evidence/Runtime/pulse-loom-accessibility-xxxl.png"]},
-    {"design_check_id": "DQA-REDUCE-MOTION", "status": "pass", "evidence_refs": ["PulseLoom/PracticeViews.swift"]},
-    {"design_check_id": "DQA-FREE-CORE-UNBLOCKED", "status": "pass", "evidence_refs": ["PulseLoom/SettingsAndHistoryView.swift", "Evidence/Runtime/xcodebuild-all-tests.log"]},
-    {"design_check_id": "DQA-PRODUCT-SPECIFIC-STATES", "status": "pass", "evidence_refs": ["PulseLoom/PatternLibraryView.swift", "PulseLoom/PatternEditorView.swift", "PulseLoom/SettingsAndHistoryView.swift"]}
+    {"check_id": "DQA-QUICK-WEAVE-ONE-TAP", "status": "pass", "evidence_refs": ["PulseLoom/HomeView.swift", "Evidence/Runtime/xcodebuild-all-tests.log"]},
+    {"check_id": "DQA-BEAT-CELL-ADAPTIVE-LAYOUT", "status": "pass", "evidence_refs": ["PulseLoom/Components.swift", "Evidence/Runtime/pulse-loom-accessibility-xxxl.png"]},
+    {"check_id": "DQA-TIMING-NON-COLOR-ENCODING", "status": "pass", "evidence_refs": ["PulseLoom/Components.swift", "PulseLoomCoreTests/PulseLoomCoreTests.swift"]},
+    {"check_id": "DQA-PRACTICE-A11Y", "status": "pass", "evidence_refs": ["PulseLoom/PracticeViews.swift", "Evidence/Runtime/pulse-loom-accessibility-xxxl.png"]},
+    {"check_id": "DQA-REDUCE-MOTION", "status": "pass", "evidence_refs": ["PulseLoom/PracticeViews.swift"]},
+    {"check_id": "DQA-FREE-CORE-UNBLOCKED", "status": "pass", "evidence_refs": ["PulseLoom/SettingsAndHistoryView.swift", "Evidence/Runtime/xcodebuild-all-tests.log"]},
+    {"check_id": "DQA-PRODUCT-SPECIFIC-STATES", "status": "pass", "evidence_refs": ["PulseLoom/PatternLibraryView.swift", "PulseLoom/PatternEditorView.swift", "PulseLoom/SettingsAndHistoryView.swift"]}
   ],
   "blockers": [
     "iap_acceptance_missing",

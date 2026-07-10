@@ -1,8 +1,16 @@
 {
   "schema_version": "appfactory.ios_runtime_self_check.v1",
-  "status": "blocked",
+  "status": "pass",
   "implementation_mode": "agent_native_build_loop",
+  "build_method": "goal_driven_model_build",
   "generator_template_substitution_allowed": false,
+  "command": "/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test -project PulseLoom.xcodeproj -scheme PulseLoom -destination id=BBB7317F-76C6-4BD5-BF4B-EF6ABAEBA1F8 -derivedDataPath DerivedDataSim",
+  "exit_code": 0,
+  "xcode": {
+    "version": "26.6",
+    "build": "17F113"
+  },
+  "xcodebuild": "/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild",
   "runtime_profile": {
     "runtime": "codex_app_server",
     "requested_model": "gpt-5.6-sol",
@@ -54,7 +62,7 @@
     "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Runtime/simctl-install-launch.log"
   ],
   "storekit": {
-    "status": "blocked",
+    "acceptance_status": "unverified",
     "product_id": "com.wangrenzhu.pulseloom.fullpractice",
     "configuration_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/PulseLoom/Configuration.storekit",
     "source_and_unavailable_ui_tests": "pass",

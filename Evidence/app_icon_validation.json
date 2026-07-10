@@ -1,0 +1,14 @@
+{
+  "schema_version": "appfactory.ios_visual_asset_validation.v1",
+  "status": "pass",
+  "asset_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/PulseLoom/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+  "source_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Design/AppIcon.svg",
+  "pixel_width": 1024,
+  "pixel_height": 1024,
+  "has_alpha": false,
+  "contains_text": false,
+  "outer_rounded_corners": false,
+  "sha256": "dc7d69b9579b53f319db83d1999dbf1ad5597480ec242103e090426d4802c2f6",
+  "asset_catalog_build_status": "pass",
+  "build_log_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Build/xcodebuild-device.log"
+}

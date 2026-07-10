@@ -1,0 +1,86 @@
+{
+  "schema_version": "appfactory.ios_runtime_self_check.v1",
+  "status": "blocked",
+  "implementation_mode": "agent_native_build_loop",
+  "generator_template_substitution_allowed": false,
+  "runtime_profile": {
+    "runtime": "codex_app_server",
+    "requested_model": "gpt-5.6-sol",
+    "requested_reasoning_effort": "high"
+  },
+  "build": {
+    "command": "/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project PulseLoom.xcodeproj -scheme PulseLoom -configuration Debug -sdk iphoneos -destination generic/platform=iOS -derivedDataPath DerivedData CODE_SIGNING_ALLOWED=NO build",
+    "exit_code": 0,
+    "xcode": {
+      "version": "26.6",
+      "build": "17F113"
+    },
+    "xcodebuild": "/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild",
+    "swift_language_version": "5.0",
+    "minimum_ios_version": "14.0",
+    "device_build_log_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Build/xcodebuild-device.log",
+    "simulator_build_log_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Build/xcodebuild-simulator.log"
+  },
+  "tests": {
+    "command": "/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test -project PulseLoom.xcodeproj -scheme PulseLoom -destination id=BBB7317F-76C6-4BD5-BF4B-EF6ABAEBA1F8 -derivedDataPath DerivedDataSim",
+    "exit_code": 0,
+    "unit_tests_executed": 6,
+    "ui_tests_executed": 4,
+    "failures": 0,
+    "log_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Runtime/xcodebuild-all-tests.log"
+  },
+  "simulator": {
+    "name": "iPhone 17",
+    "udid": "BBB7317F-76C6-4BD5-BF4B-EF6ABAEBA1F8",
+    "runtime": "iOS 26.5",
+    "state": "Booted"
+  },
+  "install": {
+    "command": "xcrun simctl install BBB7317F-76C6-4BD5-BF4B-EF6ABAEBA1F8 DerivedDataSim/Build/Products/Debug-iphonesimulator/PulseLoom.app",
+    "exit_code": 0,
+    "app_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/DerivedDataSim/Build/Products/Debug-iphonesimulator/PulseLoom.app"
+  },
+  "launch": {
+    "command": "xcrun simctl launch --terminate-running-process BBB7317F-76C6-4BD5-BF4B-EF6ABAEBA1F8 com.wangrenzhu.pulseloom -UITestResetState",
+    "exit_code": 0,
+    "bundle_id": "com.wangrenzhu.pulseloom",
+    "pid": 91524,
+    "fatal_or_crash_log_matches": 0,
+    "log_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Runtime/simctl-install-launch.log"
+  },
+  "runtime_readback_refs": [
+    "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Runtime/pulse-loom-home.png",
+    "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Runtime/pulse-loom-accessibility-xxxl.png",
+    "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Runtime/simctl-install-launch.log"
+  ],
+  "storekit": {
+    "status": "blocked",
+    "product_id": "com.wangrenzhu.pulseloom.fullpractice",
+    "configuration_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/PulseLoom/Configuration.storekit",
+    "source_and_unavailable_ui_tests": "pass",
+    "verified_purchase_and_restore_runtime": "blocked",
+    "blockers": [
+      "iap_acceptance_missing",
+      "iap_credentials_missing_app_store_connect_product_ids"
+    ],
+    "evidence_ref": "/Users/wangrenzhu/work/AI-Infra/app-factory-command-center/rough_apps/PulseLoom/Evidence/Runtime/storekit-runtime-blocker.log"
+  },
+  "applied_skill_ids": [
+    "factory-rough-app-builder",
+    "appfactory-runtime-io",
+    "build-ios-apps",
+    "test-xcode",
+    "swiftui-ui-patterns",
+    "swiftui-view-refactor",
+    "taste-skill",
+    "ios-iap-implementation",
+    "ios-iap-acceptance",
+    "ios-privacy-implementation",
+    "ios-compliance-acceptance",
+    "ios-visual-assets-implementation"
+  ],
+  "blockers": [
+    "iap_acceptance_missing",
+    "iap_credentials_missing_app_store_connect_product_ids"
+  ]
+}
